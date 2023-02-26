@@ -1,0 +1,19 @@
+.answer-container {
+    margin-top: 20px;
+  }
+
+  .answer {
+    background-color: #f7f7f7;
+    border: 1px solid #e6e6e6;
+    color: black;
+    padding: 10px;
+  }
+
+  .answer-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .answer-text {
+    margin: 0;
+  }
