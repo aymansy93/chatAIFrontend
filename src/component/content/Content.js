@@ -24,7 +24,7 @@ const Content = () => {
     useEffect(() => {
         const fetchAnswer = async () => {
             try {
-                const response = await fetch(`http://127.0.0.1/api/ask/${question}`);
+                const response = await fetch(`https://chatapi.aymankanawi.info/api/ask/${question}`);
                 const data = await response.json();
 
                 if (response.ok) {
